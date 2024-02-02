@@ -78,6 +78,8 @@ def construct_path(square):
 
     possible_moves = possible_squares_for_knight(square)
 
+
+
     if starting_square in possible_moves:
         return [square, starting_square]
     else:
