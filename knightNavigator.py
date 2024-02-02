@@ -7,7 +7,7 @@ for row in range(8):
     for col in range(8):
         chessboard[row][col] = chr(97 + col) + str(8 - row)
 
-
+# testing
 def square_name_to_coordinates(square_name):
     col_letter = square_name[0]
     row_number = int(square_name[1])  
